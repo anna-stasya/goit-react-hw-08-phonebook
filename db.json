@@ -1,0 +1,34 @@
+{
+  "contacts": [
+        {
+          "id": "bj4H-KdfB",
+          "name": "мятный",
+          "number": "23265655",
+          "completed": true
+        },
+        {
+          "id": "IfXwJovOg",
+          "name": "групповой проект",
+          "number": "23265655",
+          "completed": false
+        },
+        {
+          "id": "RuQh4cDXG",
+          "name": "aliexpress",
+          "number": "23265655",
+          "completed": false
+        },
+        {
+          "id": "pIrDcoOwA",
+          "name": "qw",
+          "number": "123123123",
+          "completed": false
+        },
+        {
+          "id": "kYt0SmEsE",
+          "name": "qwqw",
+          "number": "23265655",
+          "completed": false
+        }
+      ]
+}

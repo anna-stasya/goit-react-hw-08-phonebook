@@ -1,0 +1,32 @@
+.app {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 750px;
+  min-height: 600px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(197, 219, 228);
+  box-shadow: 0 0 29px #064e4e;
+}
+
+.title {
+  width: 700px;
+  background-color: #558cdd;
+  margin-top: 0;
+  padding: 25px;
+  border: solid 1px #777f8b;
+  text-shadow: 0 0 15px rgb(184, 185, 219);
+  font-weight: 700;
+  font-size: 50px;
+  box-shadow: 0 0 29px #064e4e;
+  color: #16064e;
+}
+
+.titleContacts {
+  margin-top: 50px;
+  font-weight: 600;
+  font-size: 30px;
+  color: #132525;
+}
