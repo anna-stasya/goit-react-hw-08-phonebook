@@ -2,7 +2,7 @@ import axios from 'axios';
 import shortid from 'shortid';
 import phoneActions from './phoneActions';
 
-axios.defaults.baseURL = 'http://localhost:3000';
+axios.defaults.baseURL = 'https://connections-api.herokuapp.com';
 //fetchContacts - операция, она использует синхронные медоты phoneActions по http запросу.
 //до, успех и ошибка
 //-----------------fetchContacts---------------------------

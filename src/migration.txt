@@ -1,0 +1,26 @@
+desing
+1.registration page 
+/register
+    form 
+        name input 
+            validation required
+        email input 
+            validation required
+        password input
+            validation required
+        password repeat input
+            validation required
+        submit button 
+
+2.login pages 
+/login
+    form 
+        email input 
+            validation required
+        password input
+        submit button 
+
+3.logout page 
+
+
+arhitecture page
