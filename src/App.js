@@ -43,12 +43,12 @@ function App() {
               <RegistrationViews />
             </PublicRoute>
             {/*=================== LoginViews ===================*/}
-            <PublicRoute path="/login" restricted redirectTo="/contactsForm">
+            <PublicRoute path="/login" restricted redirectTo="/contacts">
               <LoginViews />
             </PublicRoute>
             {/*---------------------- PrivateRoute */}
             {/*=================== ContactForm ===================*/}
-            <PrivateRoute path="/contactsForm" redirectTo="/login">
+            <PrivateRoute path="/contacts" redirectTo="/login">
               <h1 className={s.title}>Phonebook</h1>
               <ContactForm />
               <h2 className={s.titleContacts}>Contacts</h2>

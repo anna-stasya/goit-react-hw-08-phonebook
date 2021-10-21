@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { connect } from 'react-redux';
+import { useState, useEffect } from 'react';
+import { connect, useDispatch } from 'react-redux';
 
 import phoneOperations from '../../redux/phoneOperations';
 
@@ -8,6 +8,11 @@ import s from './ContactForm.module.css';
 function ContactForm({ onSubmit }) {
   const [name, setName] = useState('');
   const [number, setNumber] = useState('');
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(phoneOperations.fetchContacts());
+  }, [dispatch]);
 
   //ввод в интпут
   const handleChange = event => {
